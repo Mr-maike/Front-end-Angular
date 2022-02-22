@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"vaga": "Programador Java Back-end",
+		"linguagem": "Java",
+		"frameworkFront": "Angular",
+		"frameworkBack": "Spring Boot",
+		"descricao": "Desenvolvimento Back-end Java com ênfase no uso do Spring boot.",
+		"salario": 2500
+	},
+	{
+		"id": 2,
+		"vaga": "Programador Full Stack Python",
+		"linguagem": "Python",
+		"frameworkFront": "React",
+		"frameworkBack": "Flask",
+		"descricao": "Desenvolvimento de um website utilizando Flask, React e MySQL. Desejável: Conhecimentos em metodologias agéis. ",
+		"salario": 3000
+	},
+	{
+		"id": 3,
+		"vaga": "Programador Python Django",
+		"linguagem": "Python",
+		"frameworkFront": "Angular",
+		"frameworkBack": "Django",
+		"descricao": "Desenvolvimento utilizando Django e Angular. Desejável: conhecimento avançados em Oracle, MySQL ou PostgreSQL",
+		"salario": 3000
+	},
+	{
+		"id": 4,
+		"vaga": "Programador Back-end PHP",
+		"linguagem": "Python",
+		"frameworkFront": "Nenhum",
+		"frameworkBack": "Nenhum",
+		"descricao": "Estágio Front-end com back-end em PHP. Desejável: conhecimentos em linguagem SQL ou ORM's.",
+		"salario": 1500
+	},
+	{
+		"id": 5,
+		"vaga": "Desenvolvedor Front-end",
+		"linguagem": "C-Sharp",
+		"frameworkFront": "Vue.js",
+		"frameworkBack": "Asp.net",
+		"descricao": "Criação de Layouts responsivos utilizando C# e Vue.js. Desejável que tenha conhecimentos em linguagem SQL.",
+		"salario": 6500
+	},
+	{
+		"id": 6,
+		"vaga": "Programador Node.js",
+		"linguagem": "JavaScript",
+		"frameworkFront": "React",
+		"frameworkBack": "Node.js",
+		"descricao": "Criação de aplicações utilizando Node e React. É desejável ter conhecimentos em Expess.js.",
+		"salario": 4300
+	},
+	{
+		"id": 7,
+		"vaga": "Desenvolvedor JavaScript",
+		"linguagem": "JavaScript",
+		"frameworkFront": "Angular",
+		"frameworkBack": "Nenhum",
+		"descricao": "Criação de páginas Front-end responsivas utilizando o Framework Front-end React.",
+		"salario": 3000
+	},
+	{
+		"id": 8,
+		"vaga": "Programador PHP Laravel",
+		"linguagem": "PHP",
+		"frameworkFront": "Vue.js",
+		"frameworkBack": "Laravel",
+		"descricao": "Desenvolvimento em Laravel e Vue.js. Destaque: uso de ORM´s e metodologias agéis.",
+		"salario": 5400
+	}
+]
