@@ -1,16 +1,23 @@
-<div class="flex content-start flex-wrap">
-<div class="max-w-sm m-10 rounded overflow-hidden shadow-lg" *ngFor="let job of jobs">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 hover:underline">{{job.vaga}}</div>
-    <p class="text-gray-700 text-base">
-      {{job.descricao}}
-    </p>
-    <p class="font-bold text-base mt-2">Salário: R$<span>{{job.salario}}</span></p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-indigo-500"><a class="text-gray-700 hover:text-white" href="#">#{{job.linguagem}}</a></span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-indigo-500"><a class="text-gray-700 hover:text-white" href="#">#{{job.frameworkFront}}</a></span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-indigo-500"><a class="text-gray-700 hover:text-white" href="#">#{{job.frameworkBack}}</a></span>
-  </div>
+<div class="flex justify-between py-3 px-6 mt-6 border-b bg-indigo-500">
+  <form action="">
+    <input type="text" name="search" placeholder="Procurar vaga" class="px-3 py-2 items-center font-semibold placeholder-gray-500 rounded-2xl">
+  </form>
+  <menu as="div" class="relative flex-shrink"></menu>
 </div>
+
+<div class="flex content-start flex-wrap">
+  <div class="max-w-sm m-10 rounded overflow-hidden shadow-lg" *ngFor="let job of jobs">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2 hover:underline">{{job.vaga}}</div>
+      <p class="text-gray-700 text-base">
+        {{job.descricao}}
+      </p>
+      <p class="font-bold text-base mt-2">Salário: R$<span>{{job.salario}}</span></p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-indigo-500"><a class="text-gray-700 hover:text-white" href="#">#{{job.linguagem}}</a></span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-indigo-500"><a class="text-gray-700 hover:text-white" href="#">#{{job.frameworkFront}}</a></span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-indigo-500"><a class="text-gray-700 hover:text-white" href="#">#{{job.frameworkBack}}</a></span>
+    </div>
+  </div>
 </div>
