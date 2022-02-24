@@ -1,4 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import aboutData from '../api/about.json';
+
+interface AboutUs{
+  nome: string;
+  descricao: string;
+  cargo: string;
+}
 
 @Component({
   selector: 'app-about',
@@ -11,5 +18,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  about:AboutUs[] = aboutData;
 
 }

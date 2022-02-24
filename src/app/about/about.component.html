@@ -1,31 +1,14 @@
-<div class="container">
-  <div class="contact-info">
-    <h2>Informações de contato</h2>
-    <ul class="info">
-      <li>
-        <span><img src="" alt=""></span>
-        <span>1167 Ribeirão Preto<br>
-              São Paulo,SP
-              19776
-        </span>
-      </li>
-
-      <li>
-        <span><img src="" alt=""></span>
-        <span>1167 Ribeirão Preto<br>
-              São Paulo,SP
-              19776
-        </span>
-      </li>
-
-      <li>
-        <span><img src="" alt=""></span>
-        <span>1167 Ribeirão Preto<br>
-              São Paulo,SP
-              19776
-        </span>
-      </li>
-      
-    </ul>
+<div class="flex content-start flex-wrap">
+  <div class="max-w-sm m-10 rounded overflow-hidden shadow-lg" *ngFor="let about of about">
+    <img src="../../assets/img/people/person1.jpg" class="w-full" alt="">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2 hover:underline">{{about.nome}}</div>
+      <p class="text-gray-700 text-base">
+        {{about.descricao}}
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-indigo-500"><a class="text-gray-700 hover:text-white" href="#">#{{about.cargo}}</a></span>
+    </div>
   </div>
-</div>
+  </div>
